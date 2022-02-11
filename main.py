@@ -2,7 +2,6 @@
 import streamlit as st
 from datetime import date
 import requests
-import lxml
 import numpy as np
 import yfinance as yf
 from fbprophet import Prophet
