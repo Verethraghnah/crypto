@@ -1,7 +1,9 @@
 # pip install streamlit fbprophet yfinance plotly
 import streamlit as st
 from datetime import date
-
+import requests
+import lxml
+import numpy as np
 import yfinance as yf
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly, plot_components_plotly
