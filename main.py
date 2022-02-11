@@ -11,9 +11,9 @@ from plotly import graph_objs as go
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title('Stock Forecast App')
+st.title('Personal Forecaster for Mr. Chael Sonnen')
 
-stocks = ('BTC-USD', 'ETH-USD', 'BNB-USD', 'ADA-USD', 'SAND-USD', 'SHIB-USD')
+stocks = ('BTC-USD', 'ETH-USD', 'BNB-USD', 'ADA-USD')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
 n_years = st.slider('Weeks of prediction:', 1, 4)
