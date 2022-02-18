@@ -20,7 +20,10 @@ from fbprophet.plot import plot_plotly
 import plotly.offline as py
 from fbprophet.plot import add_changepoints_to_plot
 from fbprophet.plot import plot_components_plotly
+from PIL import Image
+image = Image.open('aa.jpeg')
 st.title('پیش‌بینی اتوماتیک با استفاده از پکیج پیامبر فیس‌بوک')
+st.image(image, caption='Ahmad & Amin Mostafavi')
 st.sidebar.title('پیش‌بینی اتوماتیک با استفاده از پکیج پیامبر فیس‌بوک')
 
 
